@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>West Kebab Ealing</title>
+  </head>
+  <body>
+    <header>
+      <img 
+        src="https://lh3.googleusercontent.com/p/AF1QipPWOBbUFsSouIva8YWtWCV1m7w8pquIaclr6-Nu=s1360-w1360-h1020" 
+        id="header-img" 
+        width="500" 
+        height="250" 
+        alt="West Kebab Ealing logo">
+      <h1>West Kebab Ealing</h1>
+      <nav>
+        <ul>
+          <li><a href="#menu">Menu</a></li>
+          <li><a href="#order-form">Order Form</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <!-- Menu Section -->
+      <section id="menu">
+        <h2>Menu</h2>
+
+        <article>
+          <img 
+            src="https://lh3.googleusercontent.com/gps-cs-s/AC9h4no6T-2VehsXCb5Ou8O2nXtMyK9r_BvzsxRwsaaMvVnE6yZrvlO0o9V0c4g193UBCsHj-oXlySuTg0IhelwQmjl2CnrlwjEKpEbyojwh8n-eAN7cBrfqB7oXGjhcLgGEV3HfhOtaCQ=s680-w680-h510" 
+            class="food" 
+            width="250" 
+            height="250" 
+            alt="Mixed Donner Kebab">
+          <h3>Mixed Donner Kebab</h3>
+          <p>Chicken and lamb kebab with pita bread and house salad.<br>
+             <em>Small: £5.99 | Medium: £7.49 | Large: £8.99</em>
+          </p>
+        </article>
+
+        <article>
+          <img 
+            src="https://tb-static.uber.com/prod/image-proc/processed_images/c7bd920e7f02af228680937a671d8cc2/7f4ae9ca0446cbc23e71d8d395a98428.jpeg" 
+            class="food" 
+            width="250" 
+            height="250" 
+            alt="Beef Burger">
+          <h3>1/4 Pounder Beef Burger</h3>
+          <p>British beef burger with lettuce, tomatoes, pickles, and cheese.<br>
+             <em>A La Carte: £3.50 | Combo: £5.40</em>
+          </p>
+        </article>
+
+        <article>
+          <img 
+            src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0d/56/7b/26/great-breakfast-after.jpg?w=400&h=-1&s=1" 
+            class="food" 
+            width="250" 
+            height="250" 
+            alt="Full English Breakfast">
+          <h3>Full English Breakfast</h3>
+          <p>Eggs, bacon, sausage, chips, beans, and tomatoes.<br>
+             <em>Full English: £7.00</em>
+          </p>
+        </article>
+      </section>
+
+      <!-- Order Section -->
+      <section id="order-form">
+        <h2>Place Your Order</h2>
+        <form>
+          <!-- Mixed Donner -->
+          <label for="donner-qty">Mixed Donner Kebab:</label>
+          <input type="number" id="donner-qty" min="0"><br>
+
+          <label><input type="checkbox" name="donner-addon"> Pickled Jalapeños</label><br>
+          <label><input type="checkbox" name="donner-addon"> Garlic Sauce</label><br>
+          <label><input type="checkbox" name="donner-addon"> Chilli Sauce</label><br><br>
+
+          <!-- Burger -->
+          <label for="burger-qty">1/4 Pounder Beef Burger:</label>
+          <input type="number" id="burger-qty" min="0"><br>
+
+          <label><input type="radio" name="burger-option"> A La Carte</label><br>
+          <label><input type="radio" name="burger-option"> Chips & Drink Combo</label><br><br>
+
+          <!-- Full English -->
+          <label for="breakfast-qty">Full English Breakfast:</label>
+          <input type="number" id="breakfast-qty" min="0"><br>
+
+          <label><input type="checkbox" name="breakfast-addon"> Fried Toast</label><br>
+          <label><input type="checkbox" name="breakfast-addon"> Black Pudding</label><br><br>
+
+          <!-- Special Request -->
+          <label for="special">Special Requests:</label><br>
+          <textarea id="special" maxlength="450" rows="5" cols="40" placeholder="Write your request here..."></textarea><br><br>
+
+          <!-- Submit -->
+          <input type="submit" value="Go To Checkout">
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <p>Made with love by Sevi2591</p>
+    </footer>
+  </body>
+</html>
